@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "whats App Messege",
+    'name': "whats",
 
     'summary': """
         Send whats App Message easly To Your Contacts
