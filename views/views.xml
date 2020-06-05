@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <record id="whatsapp_messege_inherit_res_partner" model="ir.ui.view">
+    <field name="name">Whats App Messege</field>
+    <field name="model">res.partner</field>
+    <field name="inherit_id" ref="base.view_partner_form"/>
+    <field name="arch" type="xml">
+      <xpath expr="//button[@name='toggle_active']" position="after">
+          <button class="btn btn-success" name="wizard_whats_messege" type="object" icon="fa-whatsapp" string="Send Whats App Messege">
+          </button>
+      </xpath>
+    </field>
+  </record>
+
+</odoo>
